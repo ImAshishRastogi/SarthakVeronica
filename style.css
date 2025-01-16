@@ -29,8 +29,8 @@ input {
 
 #flip_book {
     position: relative;
-    width: 438px;
-    height: 620px;
+    width: 368px;
+    height: 520px;
     transition-duration: 1s;
     perspective: 2000px;
 }
@@ -69,8 +69,8 @@ input {
     position: absolute;
     top: 10px;
     left: 4px;
-    width: 430px;
-    height: 600px;
+    width: 353px;
+    height: 500px;
     border-radius: 0 5px 5px 0;
     background-color: white;
     transform-origin: top;
@@ -120,16 +120,16 @@ input {
 
 .front_content {
     position: absolute;
-    width: 429px;
-    height: 600px;
+    width: 353;
+    height: 500px;
     border-radius: 0 5px 5px 0;
     z-index: 97;
 }
 
 .back_content {
     position: absolute;
-    width: 429px;
-    height: 600px;
+    width: 353px;
+    height: 500px;
     border-radius: 5px 0 0 5px;
     z-index: 97;
 }
