@@ -67,8 +67,8 @@ input {
 
 .page {
     position: absolute;
-    top: 10px;
-    left: 4px;
+    top: 6px;
+    left: 6px;
     width: 353px;
     height: 500px;
     border-radius: 0 5px 5px 0;
@@ -120,7 +120,7 @@ input {
 
 .front_content {
     position: absolute;
-    width: 353;
+    width: 353px;
     height: 500px;
     border-radius: 0 5px 5px 0;
     z-index: 97;
@@ -164,7 +164,7 @@ input {
 }
 
 #cover_checkbox:checked~#flip_book .front_cover {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
     transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 1;
 }
@@ -176,26 +176,36 @@ input {
 }
 
 #page1_checkbox:checked~#flip_book #page1 {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 2;
+    top: 3px
 }
 
 #page2_checkbox:checked~#flip_book #page2 {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 3;
+    top: 3px
 }
 
 #page3_checkbox:checked~#flip_book #page3 {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 4;
+    top: 3px
 }
 
 #page4_checkbox:checked~#flip_book #page4 {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 5;
+    top: 3px
 }
 
 #page5_checkbox:checked~#flip_book #page5 {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
     z-index: 6;
+    top: 3px
 }
